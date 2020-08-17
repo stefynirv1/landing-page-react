@@ -1,0 +1,38 @@
+.fixed-top {
+    position: relative;
+    height: 100px;
+    z-index: 1;
+}
+
+.navbar-brand{
+    margin-right: 12rem;
+    margin-left: 120px;
+}
+.bg-light {
+    background-color: #ffffff!important;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.44);
+}
+.nav-item{
+    width: 121px;
+    font-family: LatoLight;
+    color: #000000;
+    
+}
+@media only screen and (max-width: 375px){
+    #logoYoutube{
+        display: none;
+    }
+}
+.navbar-toggler{
+    margin-left: -16px;
+    margin-top: -8px;
+    width: 85px;
+    height: 71px;
+    border-radius: none!important;
+}
+.navbar-toggler-icon{
+    background-image: url('../../Logos/Subtraction\ 8.png')!important;
+    width: 2.5em;
+    height: 1.8em;
+    margin-top: 2px;
+}
