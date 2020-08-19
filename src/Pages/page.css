@@ -3,12 +3,12 @@
     height: 600px;
 }
 #about{
-    height: 800px;
+    
 }
 .parent { 
     background:
     /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
-    url('../Images//605553-PN81PP-939.jpg') rgb(206, 148, 41);
+    url('../Images/Group1800.png') rgb(206, 148, 41);
     width: 100%;
     height: 592px;
     background-position: center;
@@ -18,25 +18,15 @@
     -o-background-size:cover;
     padding: 20px;
     background-blend-mode: multiply;
-    -webkit-transform: skewY(-5deg); 
-    -moz-transform: skewY(-5deg); 
-    -ms-transform: skewY(-5deg); 
-    -o-transform: skewY(-5deg); 
-    transform: skewY(-5deg); 
+    clip-path: polygon(33% 0%, 100% 0, 100% 84%, 83% 87%, 55% 91%, 0 100%, 0 8%);
+    
 } 
-.parent > .child{ 
-        -webkit-transform: skewY(5deg); 
-        -moz-transform: skewY(5deg); 
-        -ms-transform: skewY(5deg); 
-        -o-transform: skewY(5deg); 
-        transform: skewY(5deg); 
-    }
     .imagen2{ 
         background:
         /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
-        url('../Images//605553-PN81PP-939.jpg') rgb(206, 148, 41);
+        url('../Images/272662-P5IYON-542.jpg') rgb(206, 148, 41);
         width: 100%;
-        height: 592px;
+        height: 762px;
         background-position: center;
         background-size: cover;
         -moz-background-size: cover;
@@ -44,25 +34,31 @@
         -o-background-size:cover;
         padding: 20px;
         background-blend-mode: multiply;
-        -webkit-transform: skewY(-5deg); 
-        -moz-transform: skewY(-5deg); 
-        -ms-transform: skewY(-5deg); 
-        -o-transform: skewY(-5deg); 
-        transform: skewY(-5deg); 
+        clip-path: polygon(0 22%, 100% 0, 100% 78%, 0% 100%);
     } 
-    .imagen2 > .child{ 
-            -webkit-transform: skewY(5deg); 
-            -moz-transform: skewY(5deg); 
-            -ms-transform: skewY(5deg); 
-            -o-transform: skewY(5deg); 
-            transform: skewY(5deg); 
-        }
-.imagen2{
-    background:
-    /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
-    url('../Images//272662-P5IYON-542.jpg') rgb(206, 148, 41) !important;
-    background-position: center;
-}
+    .imagen3{ 
+        background:
+        /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
+        url('../Images/605464-PN81CQ-903.jpg') rgb(206, 148, 41);
+        width: 100%;
+        height: 762px;
+        background-position: center;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size:cover;
+        padding: 20px;
+        background-blend-mode: multiply;
+        clip-path: polygon(0 9%, 100% 0, 100% 95%, 0% 100%);
+    } 
+
+    .triangulo-gris2{
+        position: absolute;
+        left: 4%;
+        top: 680%;
+        width: 100%;
+    }
+
 .texto-imagen{
 
     color: #ffffff;
@@ -78,6 +74,39 @@
     left: 50% !important;
 
 }
+.texto-imagen2{
+
+    color: #ffffff;
+    font-family: LatoBold;
+    font-size: 70px;
+    top: 295%!important;
+
+}
+.subtexto-imagen2{
+    color: #ffffff;
+    font-family: LatoLight;
+    font-size: 35px;
+    top: 305% !important;
+    left: 50% !important;
+
+}
+.texto-imagen3{
+
+    color: #ffffff;
+    font-family: LatoBold;
+    font-size: 70px;
+    top: 589%!important
+
+}
+.subtexto-imagen3{
+    color: #ffffff;
+    font-family: LatoLight;
+    font-size: 35px;
+    top: 600%!important;
+    left: 50% !important;
+
+}
+
 .centrado{
     position: absolute;
     top: 50%;
@@ -91,6 +120,24 @@ hr {
     background-color: #ffffff;
     top: -55%;
     position: relative;
+  }
+.hr3 {
+    margin-bottom: 5rem;
+    height: 2px;
+    width: 22%;
+    background-color: #ffffff;
+    top: 299%;
+    position: absolute;
+    left: 39%;
+  }
+  .hr5 {
+    margin-bottom: 5rem;
+    height: 2px;
+    width: 22%;
+    background-color: #ffffff;
+    top: 593%;
+    position: absolute;
+    left: 39%;
   }
 .title{
     text-align: center;
@@ -184,6 +231,138 @@ hr {
 .playImagen{
     width: 7%;
 }
+.triangulo-gris{
+    position: absolute;
+    left: 42%;
+    top: 248%;
+    width: 19%;
+}
+.descuento{
+    top: 261%;
+    position: absolute;
+    font-size: 96px;
+    font-family: LatoBold;
+    left: 43%;
+    color: #ffffff;
+}
+#planes2{
+    margin-top: 50px;
+}
+/* estilos de los planes de pago */
+.organizar-planes{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.estilo_contenedor{
+    position: absolute;
+    top: 456%;
+    left: 5%;
+}
+.estilo_span{
+    font-family: LatoBold;
+    color: #ffffff;
+    font-size: 20px;
+}
+.estilo_info1{
+    margin-left: 15px;
+    text-align: initial;
+    font-family: LatoLight;
+    padding: 12px;
+    margin-top: 19px;
+    font-size: 13px;
+}
+.estilo_horas{
+    position: absolute;
+    top: -50%;
+    font-family: LatoBold;
+    font-size: 63px;
+    left: 28%;
+    color: darkred;
+}
+.estilo_texto_clases{
+    font-size: 14px;
+    left: 53%;
+    position: absolute;
+    top: -20%;
+    text-align: initial;
+}
+.hora1{
+    position: absolute;
+    top: -37%;
+    left: 53%;
+    font-family: LatoBlack;
+}
+.estilo_plan{
+    width: 70%;
+}
+.plan1{
+    position: absolute;
+    width: 25%;
+    top: 424%;
+    left: 3%;
+}
+.plan2{
+    width: 25%;
+    top: 424%;
+    left: 36%;
+    position: absolute;
+}
+.plan3{
+    width: 25%;
+    top: 425%;
+    left: 69%;
+    position: absolute;
+}
+.estilo_valor{
+    color: #ffffff;
+    font-family: LatoBold;
+    font-size: 50px;
+}
+.hr4{
+    width: 35%;
+
+}
+.title2{
+    position: relative;
+    width: 68%;
+    font-size: 67px;
+    top: 327%;
+    left: 16%;
+}
+    /* position: relative;
+    width: 78%;
+    font-size: 32px;
+    top: 360%;
+    left: 10%;
+} */
+.plan4{
+    width: 47%;
+    top: 499%;
+    left: -7%;
+    position: absolute;
+}
+.plan5{
+    width: 47%;
+    top: 500%;
+    left: 30%;
+    position: absolute;
+}
+.estilo_contenedor2{
+    left: 39%;
+}
+.estilo_contenedor3{
+    left: 72%;
+}
+.estilo_contenedor4 {
+    top: 532%;
+    left: 6%;
+}
+.estilo_contenedor5{
+    top: 532%;
+    left: 43%;
+}
+
 
 @media only screen and (max-width: 375px){
     .parent { 
@@ -211,6 +390,12 @@ hr {
     }
     .title{
         font-size: 46px;
+    }
+    .title2{
+        width: 78%;
+        font-size: 32px;
+        top: 284%;
+        left: 11%;
     }
     .description{
         font-size:16px;
@@ -265,7 +450,136 @@ hr {
     .playImagen{
         width: 40%;
     }
-    
+    .imagen2{
+        clip-path: polygon(0 5%, 100% 0, 100% 92%, 0% 100%);
+    }
+    .triangulo-gris {
+        position: absolute;
+        left: 4%;
+        top: 273%;
+        width: 96%;
+    }
+    .texto-imagen2 {
+        color: #ffffff;
+        font-family: LatoBold;
+        font-size: 42px;
+        top: 306%!important;
+    }
+    .hr3 {
+        margin-bottom: 5rem;
+        height: 2px;
+        width: 82%;
+        background-color: #ffffff;
+        top: 308%;
+        position: absolute;
+        left: 9%;
+    }
+    .subtexto-imagen2 {
+        color: #ffffff;
+        font-family: LatoLight;
+        font-size: 20px;
+        top: 313% !important;
+        left: 51% !important;
+        width: 61%;
+    }
+    .descuento {
+        top: 289%;
+        position: absolute;
+        font-size: 90px;
+        font-family: LatoBlack;
+        left: 20%;
+        color: #ffffff;
+    }
+    .organizar-planes {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .hr4 {
+        width: 100%;
+    }
+    .plan1 {
+        position: absolute;
+        width: 48%;
+        top: 413%;
+        left: 24%;
+    }
+    .estilo_span {
+        
+        font-family: LatoBold;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .estilo_valor {
+        color: #ffffff;
+        font-family: LatoBold;
+        font-size: 40px;
+    }
+    .estilo_contenedor {
+        position: absolute;
+        top: 435%;
+        left: 12%;
+    }
+    .plan2 {
+        width: 47%;
+        top: 465%;
+        left: 20%;
+        position: absolute;
+    }
+    .estilo_contenedor2{
+        top: 487%;
+    }
+    .plan3 {
+        width: 52%;
+        top: 518%;
+        left: 20%;
+        position: absolute;
+    }
+    .plan4 {
+        width: 52%;
+        top: 568%;
+        left: 20%;
+        position: absolute;
+    }
+    .plan5 {
+        width: 52%;
+        top: 620%;
+        left: 20%;
+        position: absolute;
+    }
+    .estilo_contenedor3{
+        top: 539%;
+    }
+    .estilo_contenedor4{
+        top:590%
+    }
+    .estilo_contenedor5{
+        top: 642%;
+    }
+    .texto-imagen3 {
+        color: #ffffff;
+        font-family: LatoBold;
+        font-size: 45px;
+        top: 707%!important;
+    }
+    .hr5 {
+        margin-bottom: 5rem;
+        height: 2px;
+        width: 90%;
+        background-color: #ffffff;
+        top: 709%;
+        position: absolute;
+        left: 5%;
+    }
+    .subtexto-imagen3 {
+        color: #ffffff;
+        font-family: LatoLight;
+        font-size: 24px;
+        top: 714%!important;
+        left: 51% !important;
+        width: 64%;
+    }
 }
 
 

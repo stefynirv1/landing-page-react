@@ -12,8 +12,6 @@ const Triangle  = (props) =>{
                 <div className={props.styletext}>
                     {props.texto}
                 </div>
-               
-               
             </div>
         </div>
     )
