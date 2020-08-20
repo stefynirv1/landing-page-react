@@ -20,6 +20,7 @@ const TriangleGris  = (props) =>{
                 </div>
                 </Container>
 
+
             </div>
         </div>
     )

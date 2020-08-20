@@ -15,19 +15,32 @@ import Seccion2 from '../components/seccion1/seccion2'
 import Plan from '../components/plan/plan'
 import PlantillaPlan from '../Assets/plantillaplan.png'
 import Cuadro from '../components/plan/plan2'
+import Logo from '../components/logos/logos'
+import Mintic from '../Logos/MinTIC_(Colombia)_logo.png'
+import Camaracomercio from '../Logos/Subtraction4.png'
+import Vivedigital from '../Logos/customLogo.png'
+import Appsco from '../Logos/appsCO.png'
+import Todosnuevopais from '../Logos/todos.png'
+import Footeryoutube from '../Logos/youtube-logo-8.png'
+
 
 const CompletePage = () =>{
     return(
         <div>
         <div id="home">          
-            <div className="parent" alt =''/>  
-                <div className="child texto-imagen centrado">
+            <div className="parent" alt =''/> 
+            <div className="layer">
+            <div className="child texto-imagen centrado">
                     Tutorías online
                 </div>
                 <hr className="child"/>    
                 <div className="child subtexto-imagen centrado">
                     Clases en vivo
                 </div>
+            </div>
+               
+
+      
         </div>
         <div id="about">
                 <Seccion1
@@ -82,7 +95,9 @@ const CompletePage = () =>{
             </div>
             <div id="planes1">          
             <div className="imagen2" alt =''/>  
-           
+           <div className="layer2">
+
+           </div>
                 <TriangleGris
                     estilotexto='texto-imagen2 centrado'
                     estilosubtexto='subtexto-imagen2 centrado'
@@ -215,13 +230,14 @@ const CompletePage = () =>{
             />
             </div>
            </div>
-           <div id="planes1">          
+           <div id="planes1"> 
+                   
             <div className="imagen3" alt =''/>  
-           
+            <div className="layer3"></div> 
                 <TriangleGris
                     estilotexto='texto-imagen3 centrado'
                     estilosubtexto='subtexto-imagen3 centrado'
-                    triangulo='triangulo-gris2'
+                    triangulo='triangulo-gris3'
                     img={Descuento}
                     stylenumero="descuento"
                     numero='20%'
@@ -238,6 +254,56 @@ const CompletePage = () =>{
                     className='estilo-texto-2'
                     description='Contamos con el apoyo gubernamental local y nacional para una
                     efectiva enrega de contenidos y clases de calidad certificadas.'
+                />
+            </div>
+            <div>
+            <Logo
+                    img={Mintic}
+                    estiloslogos='logos2'
+                    logo_estilo='estilo_logoMin'
+                />
+            </div>
+            <div id="logos-seccion">
+            <div className="logos">
+                <Logo
+                    estiloslogos='logos2'
+                    img={Camaracomercio}
+                    logo_estilo='estilo_logo'
+                />
+                <Logo
+                estiloslogos='logos2'
+                logo_estilo='estilo_logo'
+                    img={Vivedigital}
+                />
+                <Logo
+                estiloslogos='logos2'
+                logo_estilo='estilo_logo'
+                    img={Appsco}
+                />
+                <Logo
+                estiloslogos='logos2'
+                logo_estilo='estilo_logo'
+                    img={Todosnuevopais}
+                />
+            </div>
+            </div>
+            
+            <div id="footer1">
+            <div className="imagen4" alt =''/> 
+            <div className="layer4"></div>  
+            <Container className="parrafo">
+                <label>QUIÉNES SOMOS</label><br/>
+                <label>TÉRMINOS Y CONDICIONES</label><br/>
+                <label>PREGUNTAS FRECUENTES</label><br/>
+                <label>CONTÁCTENOS</label>
+                </Container>
+            </div>
+            <div className="footer">
+
+            <Logo
+            estiloslogos='logos_youtube'
+                logo_estilo='estilo_logofooter'
+                    img={Footeryoutube}
                 />
             </div>
         </div>
