@@ -46,17 +46,18 @@ const CompletePage = () =>{
                 <Seccion1
                     title='Cómo funciona'
                 />
-            <Container>
-            <div className="seccion-triangulos">
-            <Triangle
+                <div id="triangles">
+                <Container>
+                <div className="seccion-triangulos">
+                <Triangle
                     className="triangle triangle1"
                     img={Triangulo}
                     numero='1'
                     stylenumero="numero"
                     texto='Elige una materia'
                     styletext="triangle-text"
-                />
-            <Triangle
+                    />
+                <Triangle
                     className="triangle triangle2"
                     img={Triangulo}
                     numero='2'
@@ -84,6 +85,7 @@ const CompletePage = () =>{
                 />
             </div>
             </Container>
+            </div>
             <div>
                 <Play
                     className="playImagen"
@@ -94,24 +96,28 @@ const CompletePage = () =>{
 
             </div>
             <div id="planes1">          
-            <div className="imagen2" alt =''/>  
-           <div className="layer2">
+             
+            <div className="imagen2" alt=''>
+            <div className="layer2">
 
-           </div>
-                <TriangleGris
-                    estilotexto='texto-imagen2 centrado'
-                    estilosubtexto='subtexto-imagen2 centrado'
-                    triangulo='triangulo-gris'
-                    img={Descuento}
-                    stylenumero="descuento"
-                    numero='20%'
-                    titulo='Subscríbete'
-                    subtitulo='Y obtén precios especiales'
-                    textoplace='Correo electrónico'
-                    linea='hr3'
-                />
+           
+<TriangleGris
+    estilotexto='texto-imagen2 centrado'
+    estilosubtexto='subtexto-imagen2 centrado'
+    triangulo='triangulo-gris'
+    img={Descuento}
+    stylenumero="descuento"
+    numero='20%'
+    titulo='Subscríbete'
+    subtitulo='Y obtén precios especiales'
+   
+    linea='hr3'
+    estiloinput='estilo_input'
+/>
+</div>
             </div>
            
+            </div>
             <div className="planes">
             <Seccion2
                     title='¡Tenemos planes  para todos los presupuestos!'
@@ -126,7 +132,7 @@ const CompletePage = () =>{
                
            <Plan
                 img={PlantillaPlan}
-                estilocontenedor='plan1'
+                estilocontenedor='plan plan1'
                 estiloplan='estilo_plan estilo_plan1'
                 estilovalor='estilo_valor'
                 estilonumeroplan='estilo_numero_plan'
@@ -147,7 +153,7 @@ const CompletePage = () =>{
                 />
             <Plan
                 img={PlantillaPlan}
-                estilocontenedor='plan2'
+                estilocontenedor='plan plan2'
                 estiloplan='estilo_plan estilo_plan2'
                 estilovalor='estilo_valor'
                 estilonumeroplan='estilo_numero_plan'
@@ -167,7 +173,7 @@ const CompletePage = () =>{
                 />
             <Plan
                 img={PlantillaPlan}
-                estilocontenedor='plan3'
+                estilocontenedor='plan plan3'
                 estiloplan='estilo_plan estilo_plan3'
                 estilovalor='estilo_valor'
                 estilonumeroplan='estilo_numero_plan'
@@ -190,7 +196,7 @@ const CompletePage = () =>{
             <div className="organizar-planes">
             <Plan
                 img={PlantillaPlan}
-                estilocontenedor='plan4'
+                estilocontenedor='linea2-plan plan4'
                 estiloplan='estilo_plan estilo_plan4'
                 estilovalor='estilo_valor'
                 estilonumeroplan='estilo_numero_plan'
@@ -210,7 +216,7 @@ const CompletePage = () =>{
             />
                         <Plan
                 img={PlantillaPlan}
-                estilocontenedor='plan5'
+                estilocontenedor='linea2-plan plan5'
                 estiloplan='estilo_plan estilo_plan4'
                 estilovalor='estilo_valor'
                 estilonumeroplan='estilo_numero_plan'
@@ -232,22 +238,23 @@ const CompletePage = () =>{
            </div>
            <div id="planes1"> 
                    
-            <div className="imagen3" alt =''/>  
-            <div className="layer3"></div> 
+            <div className="imagen3" >
+            <div className="layer3">
                 <TriangleGris
                     estilotexto='texto-imagen3 centrado'
                     estilosubtexto='subtexto-imagen3 centrado'
                     triangulo='triangulo-gris3'
                     img={Descuento}
                     stylenumero="descuento"
-                    numero='20%'
+                    
                     titulo='Subscríbete'
                     subtitulo='Y obtén clases GRATIS'
                     linea='hr5'
                     textoplace='Correo electrónico'
                 />
             </div>
-
+            </div> 
+            </div> 
             <div className="planes">
             <Seccion2
                     title='¡Servicio de calidad y credibilidad!'
@@ -289,14 +296,16 @@ const CompletePage = () =>{
             </div>
             
             <div id="footer1">
-            <div className="imagen4" alt =''/> 
-            <div className="layer4"></div>  
+            <div className="imagen4" alt =''>
+            <div className="layer4">
             <Container className="parrafo">
                 <label>QUIÉNES SOMOS</label><br/>
                 <label>TÉRMINOS Y CONDICIONES</label><br/>
                 <label>PREGUNTAS FRECUENTES</label><br/>
                 <label>CONTÁCTENOS</label>
                 </Container>
+            </div>
+            </div>  
             </div>
             <div className="footer">
 

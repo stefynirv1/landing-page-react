@@ -18,6 +18,9 @@ const TriangleGris  = (props) =>{
                 <div className={props.estilosubtexto}>
                     {props.subtitulo}
                 </div>
+                <div className={props.estiloinput}>
+                    <input type="text" placeholder="Correo electrónico" className="input"></input>
+                </div>
                 </Container>
 
 

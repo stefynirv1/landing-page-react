@@ -115,7 +115,7 @@
     .layer4 {
         background-color: rgba(236, 128, 0, 0.78);
         position: absolute;;
-        top: 867%;
+        top: 868%;
         left: 0;
         width: 100%;
         height: 765px;
@@ -137,7 +137,7 @@
     .triangulo-gris3 {
         position: absolute;
         left: 40%;
-        top: 640%;
+        top: 21%;
         width: 20%;
     }
 
@@ -161,14 +161,14 @@
     color: #ffffff;
     font-family: LatoBold;
     font-size: 70px;
-    top: 329%!important
+    top: 52%!important;
 
 }
 .subtexto-imagen2{
     color: #ffffff;
     font-family: LatoLight;
     font-size: 35px;
-    top: 340%!important;
+    top: 60%!important;
     left: 50% !important;
 
 }
@@ -177,14 +177,14 @@
     color: #ffffff;
     font-family: LatoBold;
     font-size: 70px;
-    top: 662%!important;
+    top: 39%!important;
 
 }
 .subtexto-imagen3{
     color: #ffffff;
     font-family: LatoLight;
     font-size: 35px;
-    top: 673%!important;
+    top: 48%!important;
     left: 50% !important;
 
 }
@@ -208,7 +208,7 @@ hr {
     height: 2px;
     width: 22%;
     background-color: #ffffff;
-    top: 333%;
+    top: 55%;
     position: absolute;
     left: 39%;
   }
@@ -217,7 +217,7 @@ hr {
     height: 2px;
     width: 22%;
     background-color: #ffffff;
-    top: 666%;
+    top: 42%;
     position: absolute;
     left: 39%;
   }
@@ -243,6 +243,7 @@ hr {
     width: 100%;
     display: flex;
 }
+
 .triangle{
     width: 100%;
     text-align: center;
@@ -267,12 +268,12 @@ hr {
     color: #ffffff;
     font-family: LatoBold;
     position: absolute;
-    top: 173%;
+    top:173%;
     left: 12%;
     font-size: 172px;
 }
 .numero2{
-    top: 172%;
+    top: 173%;
     left: 31%;
 }
 .numero3{
@@ -280,7 +281,7 @@ hr {
     left: 54%;
 }
 .numero4{
-    top: 172%;
+    top: 173%;
     left: 77%;
 }
 .triangle-text{
@@ -316,11 +317,37 @@ hr {
 .triangulo-gris{
     position: absolute;
     left: 42%;
-    top: 277%;
+    top: 12%;
     width: 19%;
 }
+.estilo_input {
+    transform: translate(143%,178%);
+    position: absolute;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-size: 19px;
+    padding: 17px;
+    border-radius: 16px;
+    top: 50%;
+    color: #ffffff!important;
+}
+.input {
+    text-align: center;
+    background: inherit;
+    border: none;
+    color: #ffffff!important;
+}
+.estilo_input:focus { 
+    outline:none; 
+} 
+.input:focus{
+    border:none;
+}
+
 .descuento{
-    top: 292%;
+    top: 23%;
     position: absolute;
     font-size: 96px;
     font-family: LatoBold;
@@ -338,7 +365,7 @@ hr {
 }
 .estilo_contenedor{
     position: absolute;
-    top: 491%;
+    top: 490%;
     left: 5%;
 }
 .estilo_span{
@@ -378,23 +405,30 @@ hr {
 .estilo_plan{
     width: 70%;
 }
+.plan{
+    top: 455%;
+   
+}
 .plan1{
     position: absolute;
     width: 25%;
-    top: 458%;
+   
     left: 3%;
 }
 .plan2{
     width: 25%;
-    top:458%;
+    
     left: 36%;
     position: absolute;
 }
 .plan3{
     width: 25%;
-    top: 458%;
+  
     left: 69%;
     position: absolute;
+}
+.linea2-plan{
+    top: 534%;
 }
 .estilo_valor{
     color: #ffffff;
@@ -420,13 +454,11 @@ hr {
 } */
 .plan4{
     width: 47%;
-    top: 537%;
     left: -7%;
     position: absolute;
 }
 .plan5{
     width: 47%;
-    top: 537%;
     left: 30%;
     position: absolute;
 }
@@ -437,11 +469,11 @@ hr {
     left: 72%;
 }
 .estilo_contenedor4 {
-    top: 572%;
+    top: 573%;
     left: 6%;
 }
 .estilo_contenedor5{
-    top: 572%;
+    top: 573%;
     left: 43%;
 }
 .logos {
@@ -469,7 +501,7 @@ hr {
 .parrafo{
     position: absolute;
     left: 7%;
-    top: 965%;
+    top: 79%;
     color: #ffffff;
     font-family: LatoLight;
     line-height: 14px;
@@ -585,14 +617,14 @@ hr {
         color: #ffffff;
         font-family: LatoBold;
         font-size: 42px;
-        top: 306%!important;
+        top: 54%!important;
     }
     .hr3 {
         margin-bottom: 5rem;
         height: 2px;
         width: 82%;
         background-color: #ffffff;
-        top: 308%;
+        top: 55%;
         position: absolute;
         left: 9%;
     }
@@ -600,12 +632,12 @@ hr {
         color: #ffffff;
         font-family: LatoLight;
         font-size: 20px;
-        top: 313% !important;
+        top: 59%!important;
         left: 51% !important;
         width: 61%;
     }
     .descuento {
-        top: 289%;
+        top: 39%;
         position: absolute;
         font-size: 90px;
         font-family: LatoBlack;
@@ -683,14 +715,14 @@ hr {
         color: #ffffff;
         font-family: LatoBold;
         font-size: 45px;
-        top: 707%!important;
+        top: 46%!important;
     }
     .hr5 {
         margin-bottom: 5rem;
         height: 2px;
         width: 90%;
         background-color: #ffffff;
-        top: 709%;
+        top:48%;
         position: absolute;
         left: 5%;
     }
@@ -698,7 +730,7 @@ hr {
         color: #ffffff;
         font-family: LatoLight;
         font-size: 24px;
-        top: 714%!important;
+        top:53%!important;
         left: 51% !important;
         width: 64%;
     }
@@ -732,6 +764,20 @@ hr {
         -webkit-clip-path: polygon(33% 0%, 100% 0, 100% 84%, 83% 87%, 55% 91%, 0 100%, 0 9%);
         clip-path: polygon(42% 13%, 100% 0, 100% 78%, 61% 87%, 42% 91%, 0 100%, 0 22%);
     }
+    .imagen4 {
+        background: /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */ url(/static/media/kids.334e3ff6.jpg);
+        width: 100%;
+        height: 762px;
+        background-position: center;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        padding: 20px;
+        background-blend-mode: multiply;
+        -webkit-clip-path: polygon(0 18%, 100% 0, 100% 77%, 0% 100%);
+        clip-path: polygon(0 18%, 100% 0, 100% 90%, 0% 100%);
+    }
     .layer4 {
         background-color: rgba(236, 128, 0, 0.78);
         position: absolute;
@@ -745,22 +791,22 @@ hr {
         -webkit-background-size: cover;
         -o-background-size: cover;
         -webkit-clip-path: polygon(33% 0%, 100% 0, 100% 84%, 83% 87%, 55% 91%, 0 100%, 0 9%);
-        clip-path: polygon(0 18%, 100% 0, 100% 77%, 0% 100%);
+        clip-path: polygon(0 18%, 100% 0, 100% 90%, 0% 100%);
     }
     .parrafo {
         position: absolute;
         left: 2%;
-        top: 928%;
+        top: 73%;
         color: #ffffff;
         font-family: LatoLight;
         line-height: 22px;
         font-size: 19px;
     }
-    .triangulo-gris3 {
+    .triangulo-gris {
         position: absolute;
-        left: 20%;
-        top: 687%;
-        width: 64%;
+        left: 2%;
+        top: 24%;
+        width: 96%;
     }
     .estilo_logoMin {
         width: 63%;
@@ -792,6 +838,12 @@ hr {
     }
     .logos_youtube {
         text-align: center;
+    }
+    .triangulo-gris3 {
+        position: absolute;
+        left: 6%;
+        top: 19%;
+        width: 91%;
     }
 }
 
