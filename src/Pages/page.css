@@ -5,7 +5,8 @@
 #about{
     
 }
-.parent { 
+
+.parent {   
     background:
     /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
     url('../Images/Group1800.png');
@@ -55,7 +56,7 @@
     .layer2 {
         background-color: rgba(161, 128, 98, 0.7);
         position: absolute;;
-        top: 252%;
+        top: 268%;
         left: 0;
         width: 100%;
         height: 765px;
@@ -72,7 +73,7 @@
         /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
         url('../Images/605464-PN81CQ-903.jpg');
         width: 100%;
-        height: 762px;
+        height: 759px;
         background-position: center;
         background-size: cover;
         -moz-background-size: cover;
@@ -85,7 +86,7 @@
     .layer3 {
         background-color: rgba(161, 128, 98, 0.7);
         position: absolute;;
-        top: 618%;
+        top: 606%;
         left: 0;
         width: 100%;
         height: 765px;
@@ -102,7 +103,7 @@
         /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */
         url('../Images/kids.jpg') ;
         width: 100%;
-        height: 762px;
+        height: 711px;
         background-position: center;
         background-size: cover;
         -moz-background-size: cover;
@@ -115,7 +116,7 @@
     .layer4 {
         background-color: rgba(236, 128, 0, 0.78);
         position: absolute;;
-        top: 868%;
+        top: 836%;
         left: 0;
         width: 100%;
         height: 765px;
@@ -246,11 +247,13 @@ hr {
 
 .triangle{
     width: 100%;
+    position: relative;
     text-align: center;
     background-position: center;
     background-size: cover;
 }
 .triangle2{
+    position: relative;
     margin-top: -34px;
     width: 128%;
     transform: rotate(-140deg);
@@ -264,25 +267,27 @@ hr {
     transform: rotate(80deg);
     width: 110%;
 }
-.numero{
+.numero {
+    /* width: 100%; */
     color: #ffffff;
     font-family: LatoBold;
-    position: absolute;
-    top:173%;
-    left: 12%;
-    font-size: 172px;
+    position: relative;
+    top: -288px;
+    left: 19%;
+    font-size: 153px;
 }
-.numero2{
-    top: 173%;
-    left: 31%;
+.numero2 {
+    position: relative;
+    top: -256px;
+    left: 19%;
 }
-.numero3{
-    top: 173%;
-    left: 54%;
+.numero3 {
+    top: -310px;
+    left: 36%;
 }
-.numero4{
-    top: 173%;
-    left: 77%;
+.numero4 {
+    top: -324px;
+    left: 30%;
 }
 .triangle-text{
     text-align: center;
@@ -333,6 +338,40 @@ hr {
     top: 50%;
     color: #ffffff!important;
 }
+.estilo_input2 {
+    transform: translate(143%,178%);
+    position: absolute;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-size: 19px;
+    padding: 17px;
+    border-radius: 16px;
+    top: 50%;
+    color: #ffffff!important;
+}
+.contenedorcaja{
+    text-align: center;
+    position: relative;
+    top: 538px;
+}
+.contenedorcaja1{
+    text-align: center;
+    position: relative;
+    top: 538px;
+}
+
+.estilo-texto-caja1 {
+    font-size: 28px;
+    position: relative;
+    bottom: 65px;
+    color: #ffffff;
+    font-family: LatoRegular;
+}
+.estilo_input2:focus { 
+    outline:none; 
+} 
 .input {
     text-align: center;
     background: inherit;
@@ -734,6 +773,9 @@ hr {
         left: 51% !important;
         width: 64%;
     }
+    .imagen3{
+        clip-path: polygon(0 5%, 100% 0, 100% 92%, 0% 100%);
+    }
     .layer2 {
         background-color: rgba(161, 128, 98, 0.7);
         position: absolute;
@@ -747,7 +789,7 @@ hr {
         -webkit-background-size: cover;
         -o-background-size: cover;
         -webkit-clip-path: polygon(33% 0%, 100% 0, 100% 84%, 83% 87%, 55% 91%, 0 100%, 0 9%);
-        clip-path: polygon(153% 15%, 100% 0, 100% 94%, 65% 96%, 50% 97%, 0 100%, 0 22%);
+        clip-path: polygon(0 5%, 100% 0, 100% 94%, 0% 100%);
     }
     .layer3 {
         background-color: rgba(161, 128, 98, 0.7);
@@ -762,7 +804,7 @@ hr {
         -webkit-background-size: cover;
         -o-background-size: cover;
         -webkit-clip-path: polygon(33% 0%, 100% 0, 100% 84%, 83% 87%, 55% 91%, 0 100%, 0 9%);
-        clip-path: polygon(42% 13%, 100% 0, 100% 78%, 61% 87%, 42% 91%, 0 100%, 0 22%);
+        clip-path: polygon(0 5%, 100% 0, 100% 92%, 0% 100%);
     }
     .imagen4 {
         background: /* linear-gradient(to bottom, rgb(206, 148, 41), rgba(117, 19, 93, 0.73)), */ url(/static/media/kids.334e3ff6.jpg);
@@ -845,6 +887,39 @@ hr {
         top: 19%;
         width: 91%;
     }
+    .estilo_input {
+        transform: translate(0%,219%);
+        position: relative;
+        border-color: #ffffff;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        font-size: 19px;
+        padding: 17px;
+        border-radius: 16px;
+        top: 500px;
+        color: #ffffff!important;
+    }
+    .estilo_input2 {
+        font-family: LatoLight;
+        transform: translate(0%,219%);
+        position: relative;
+        border-color: #ffffff;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        font-size: 19px;
+        padding: 17px;
+        border-radius: 16px;
+        top: 385px;
+        color: #ffffff!important;
+    }
+    .contenedorcaja {
+        text-align: center;
+        position: relative;
+        top: 628px;
+    }
+
 }
 
 

@@ -22,6 +22,7 @@ import Vivedigital from '../Logos/customLogo.png'
 import Appsco from '../Logos/appsCO.png'
 import Todosnuevopais from '../Logos/todos.png'
 import Footeryoutube from '../Logos/youtube-logo-8.png'
+import Box from '../Assets/Path 630.png'
 
 
 const CompletePage = () =>{
@@ -113,6 +114,10 @@ const CompletePage = () =>{
    
     linea='hr3'
     estiloinput='estilo_input'
+    imagenm={Box}
+    boxdialog='caja1'
+    estilotextocaja='estilo-texto-caja1'
+    contenedorcaja='contenedorcaja'
 />
 </div>
             </div>
@@ -250,7 +255,11 @@ const CompletePage = () =>{
                     titulo='Subscríbete'
                     subtitulo='Y obtén clases GRATIS'
                     linea='hr5'
-                    textoplace='Correo electrónico'
+                    estiloinput='estilo_input2'
+                    imagenm={Box}
+                    boxdialog='caja2'
+                    estilotextocaja='estilo-texto-caja1'
+                    contenedorcaja='contenedorcaja1'
                 />
             </div>
             </div> 

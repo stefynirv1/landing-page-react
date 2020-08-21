@@ -21,6 +21,13 @@ const TriangleGris  = (props) =>{
                 <div className={props.estiloinput}>
                     <input type="text" placeholder="Correo electrónico" className="input"></input>
                 </div>
+                <Container className={props.contenedorcaja}>
+                <img src={props.imagenm} className={props.boxdialog}alt =''/>
+                <div className={props.estilotextocaja}>
+                    <label>Me interesa</label>
+                </div>
+                </Container>
+
                 </Container>
 
 

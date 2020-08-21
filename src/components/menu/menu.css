@@ -22,6 +22,21 @@
     #logoYoutube{
         display: none;
     }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        border: solid #fff;
+        background-color: #fff;
+        position: absolute;
+        top: 81%;
+        left: 0%;
+        width: 63%;
+        border-radius: 0 0 21% 0;
+    }
+    .navbar-nav{
+        line-height: 64px;
+    }
 }
 .navbar-toggler{
     margin-left: -16px;
