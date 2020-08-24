@@ -1,6 +1,7 @@
 para ejecutar:
 
 1- clonar repositorio
+
 2- en la terminal de visual studio code ejecutar:
 
     npm install
